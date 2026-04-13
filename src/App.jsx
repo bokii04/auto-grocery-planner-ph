@@ -1605,7 +1605,7 @@ export default function AutoGroceryPlannerPH() {
             const filled = MEALS.filter((m) => mealPlan[day][m]).length;
             return (
               <div key={day} className="agp-card" style={{
-                marginBottom: 6, overflow: "hidden",
+                marginBottom: 6,
                 borderColor: isExpanded ? "rgba(255,255,255,0.1)" : undefined,
                 animation: `agpFadeUp 0.3s ease ${dayIdx * 0.03}s both`,
               }}>
